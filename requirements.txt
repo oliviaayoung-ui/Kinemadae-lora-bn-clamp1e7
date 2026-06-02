@@ -1,0 +1,29 @@
+# Core ML
+# torch / torchvision 은 환경별로 (CUDA 버전에 맞게) 별도 설치
+# 예: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+peft
+einops
+colorlog
+tqdm
+wandb
+numpy
+pillow
+opencv-python
+decord
+omegaconf
+
+# Loss / metrics
+lpips
+
+# Video / dataset
+imageio
+imageio-ffmpeg
+
+# DiffSynth-Studio 의 dependency
+transformers
+diffusers
+accelerate
+safetensors
+sentencepiece
+ftfy
+huggingface-hub
